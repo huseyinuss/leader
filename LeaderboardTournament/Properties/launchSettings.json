@@ -1,0 +1,31 @@
+{
+  "profiles": {
+    "UserService": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "AWS_ACCESS_KEY_ID": "AKIAXWMA6OVIWV2JLV54",
+        "AWS_SECRET_ACCESS_KEY": "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",
+        "AWS_REGION": "eu-north-1",
+        "Redis__Configuration": "localhost:6379"
+      },
+      "applicationUrl": "http://localhost:5000;https://localhost:5001"
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  },
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:52454/",
+      "sslPort": 44339
+    }
+  }
+}
